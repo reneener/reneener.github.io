@@ -1,7 +1,7 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
+title:          TILBlog
+description:    "기술블로그"
+baseurl:        ""
 url:            "https://chesterhow.github.io"
 
 # Google Analytics
@@ -9,9 +9,9 @@ google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
+  name:         ReneeKim  
   url:          https://chester.how
-  email:        chesterhow@gmail.com
+  email:        jhjin2u@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -31,5 +31,6 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
+theme:      
 permalink:      /:year-:month-:day/:title
 paginate:       5
