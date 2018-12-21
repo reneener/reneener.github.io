@@ -1,8 +1,7 @@
 # Site settings
 title:          TILBlog
 description:    "기술블로그"
-baseurl:        
-url:            "https://chesterhow.github.io"
+url:            "https://reneener.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
