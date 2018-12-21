@@ -1,6 +1,6 @@
 # Site settings
-title:          TILBlog
-description:    "기술블로그"
+title:          개발 블로그
+description:    "Today I learn"
 url:            "https://reneener.github.io"
 
 # Google Analytics
@@ -9,7 +9,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         ReneeKim  
-  url:          https://chester.how
+  url:          
   email:        jhjin2u@gmail.com
 
 # Build settings
