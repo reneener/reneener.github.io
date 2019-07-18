@@ -1,0 +1,49 @@
+## [D3] 1208 Flatten
+
+* Code
+
+  ```java
+  import java.util.Arrays;
+  import java.util.Scanner;
+   
+  public class Solution {
+   
+      public static void main(String[] args) {
+          // TODO Auto-generated method stub
+          Scanner in = new Scanner(System.in);
+          for(int j=1; j<=10; j++) {
+              int[] data = new int[100];
+              int cnt = in.nextInt();
+              int max = Integer.MIN_VALUE;
+              int min = Integer.MAX_VALUE;
+               
+              for(int i=0; i<data.length; i++) 
+                  data[i] = in.nextInt();
+              for(int k=0; k<cnt; k++) {
+                  Arrays.sort(data);
+                  data[data.length-1]--;
+                  data[0]++;
+              }
+              for(int z=0; z<100; z++) {
+                  if(max < data[z]) max = data[z];
+                  else if(min > data[z]) min = data[z];
+              }
+              System.out.println("#"+j+" "+(max-min));
+          }
+      }
+  }
+  ```
+
+
+
+* Comment
+
+  먼저 오름차순으로 그래프들을 정리하면 쉽게 구할 수 있었다. 
+
+  쉽게 푸는 아이디어를 찾는게 어렵다,, 
+
+  
+
+* URL
+
+  SWEA https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV139KOaABgCFAYh&categoryId=AV139KOaABgCFAYh&categoryType=CODE
