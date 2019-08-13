@@ -1,0 +1,21 @@
+#### Algorithm Shortcut
+
+#### I/O
+
+- nextInt이후에 nextLine쓰면 그 사이에 nextLine써줘야 함. 
+
+애초에 이런경우를 없애기 위해 nextInt 쓰면 next로 한번에 받고 s.char(i)로 나누기
+
+
+
+- 공백없는 문자 or 숫자 한번에 여러개 받을떄는 s.toCharArray 활용 
+
+
+
+- 00 01 02 03
+
+  10 11 12 13
+
+  20 21 22 23
+
+  배열에서 대각선, 가로, 세로 등 특정 인덱스만 접근해야할때 i-j = 0 등 i, j연산이 같다는것을 활용
